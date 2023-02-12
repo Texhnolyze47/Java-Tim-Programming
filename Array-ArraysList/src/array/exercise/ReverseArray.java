@@ -24,6 +24,7 @@ public class ReverseArray {
         String input = sc.nextLine();
 
         String[] splits = input.split(",");
+        System.out.println("Splits " + Arrays.toString(splits));
         int[] values = new int[splits.length];
 
         for (int i = 0; i < splits.length; i++){

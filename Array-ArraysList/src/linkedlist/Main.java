@@ -137,7 +137,8 @@ public class Main {
                 iterator.add("Lake Wivengoe");
             }
 
-        } while (iterator.hasPrevious()){
+        }
+        while (iterator.hasPrevious()){
             System.out.println(iterator.previous());
 
         }
